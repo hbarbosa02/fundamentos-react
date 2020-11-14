@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function NumAleatorio({min, max, ...props}) {
+export default function NumAleatorio({ min, max, ...props }) {
     const num = Math.floor(Math.random() * (max - min)) + min  
     return (
         <>

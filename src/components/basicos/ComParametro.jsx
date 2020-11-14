@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ComParametro({titulo, subtitulo, ...props}) {
+export default function ComParametro({ titulo, subtitulo, ...props }) {
     return ( 
         <div>
             <h1> Segundo Componente </h1>
