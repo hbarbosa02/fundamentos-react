@@ -6,15 +6,27 @@ import Fragmento from './components/basicos/Fragmento'
 import NumAleatorio from './components/basicos/NumAleatorio'
 import Card from './components/layout/Card'
 
-import './App.css'
 import Familia from './components/basicos/Familia';
 import FamiliaMembro from './components/basicos/FamiliaMembro';
+
+import ListaRepeticao from './components/repetição/ListaAlunos';
+import TabelaProdutos from './components/repetição/TabelaProdutos';
+
+import './App.css'
 
 const App = (_) => {
   return (
     <div className="App">
         <h1>Fundamentos React (Arrow)</h1>
+  
         <div className="Cards">
+          <Card titulo="#07 - Desafio Tabela" color="#2794518">
+            <TabelaProdutos />
+          </Card>
+
+          <Card titulo="#06 - Lista Repetição" color="#051849">
+            <ListaRepeticao />
+          </Card>
 
           <Card titulo="#05 - Componente com Filhos" color="#F728A6">
             <Familia sobrenome="Pinto">
