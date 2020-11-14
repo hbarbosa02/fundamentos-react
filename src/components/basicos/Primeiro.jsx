@@ -4,7 +4,7 @@ export default function Primeiro() {
     const msg = 'Seja bem vindo(a)'
     return (
         <div>
-            <h2> Primeiro Componente </h2>
+            <h1> Primeiro Componente </h1>
             <p>{msg}</p>
         </div>
     )
