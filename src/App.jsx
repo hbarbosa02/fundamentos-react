@@ -15,6 +15,8 @@ import TabelaProdutos from './components/repetição/TabelaProdutos';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 
+import DiretaPai from './components/comunicacao/DiretaPai';
+
 import './App.css'
 
 const App = (_) => {
@@ -23,14 +25,17 @@ const App = (_) => {
         <h1>Fundamentos React (Arrow)</h1>
   
         <div className="Cards">
-          
+          <Card titulo="#09 - Comunicação Direta" color="#225813">
+            <DiretaPai />
+          </Card>
+
           <Card titulo="#08 - Par ou Impar" color="#315849">
             <UsuarioInfo usuario={{ nome: "Pedro Silva" }} />
             <UsuarioInfo usuario={{ email: "hiran@test.com" }} />
             <ParOuImpar value={11} />
           </Card>
 
-          <Card titulo="#07 - Desafio Tabela" color="#2794518">
+          <Card titulo="#07 - Desafio Tabela" color="#279458">
             <TabelaProdutos />
           </Card>
 
