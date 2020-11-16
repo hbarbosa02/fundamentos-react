@@ -16,6 +16,7 @@ import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 
 import DiretaPai from './components/comunicacao/DiretaPai';
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 
 import './App.css'
 
@@ -25,6 +26,10 @@ const App = (_) => {
         <h1>Fundamentos React (Arrow)</h1>
   
         <div className="Cards">
+          <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
+            <IndiretaPai />
+          </Card>
+
           <Card titulo="#09 - Comunicação Direta" color="#225813">
             <DiretaPai />
           </Card>
