@@ -18,6 +18,8 @@ import UsuarioInfo from './components/condicional/UsuarioInfo';
 import DiretaPai from './components/comunicacao/DiretaPai';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 
+import Input from './components/fomulario/Input';
+
 import './App.css'
 
 const App = (_) => {
@@ -26,6 +28,10 @@ const App = (_) => {
         <h1>Fundamentos React (Arrow)</h1>
   
         <div className="Cards">
+          <Card titulo="#11 - Componente Controlado (Input)" color="#784126">
+            <Input />
+          </Card>
+
           <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
             <IndiretaPai />
           </Card>
