@@ -20,6 +20,8 @@ import IndiretaPai from './components/comunicacao/IndiretaPai';
 
 import Input from './components/fomulario/Input';
 
+import Contador from './components/contador/Contador';
+
 import './App.css'
 
 const App = (_) => {
@@ -28,6 +30,10 @@ const App = (_) => {
         <h1>Fundamentos React (Arrow)</h1>
   
         <div className="Cards">
+          <Card titulo="#12 - Contador" color="#E45F82">
+            <Contador numeroInicial={0} />
+          </Card>
+
           <Card titulo="#11 - Componente Controlado (Input)" color="#784126">
             <Input />
           </Card>
