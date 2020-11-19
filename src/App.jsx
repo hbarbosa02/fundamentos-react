@@ -22,6 +22,8 @@ import Input from './components/fomulario/Input';
 
 import Contador from './components/contador/Contador';
 
+import Mega from './components/mega/Mega';
+
 import './App.css'
 
 const App = (_) => {
@@ -30,6 +32,10 @@ const App = (_) => {
         <h1>Fundamentos React (Arrow)</h1>
   
         <div className="Cards">
+          <Card titulo="#13 - Desafio Mega" color="#FF1857">
+            <Mega quantidade={8} />
+          </Card>
+
           <Card titulo="#12 - Contador" color="#E45F82">
             <Contador numeroInicial={0} />
           </Card>
